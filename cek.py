@@ -162,7 +162,7 @@ for folder_name in os.listdir(base_path):
 # =========================================
 # 5. Simpan Hasil Penilaian ke Excel
 # =========================================
-output_excel_path = '/content/drive/MyDrive/adi file (perkuliahan)/adi file/Dosen/MK/2024/Pembelajaran Mesin/Hasil_Penilaian_UTS_Otomatis_OpenAI.xlsx' # Changed output filename
+output_excel_path = '/content/drive/MyDrive/path file/namefile.xlsx' # Changed output filename
 df_assessments = pd.DataFrame(all_student_assessments)
 df_assessments.to_excel(output_excel_path, index=False)
 
